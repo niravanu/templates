@@ -1,0 +1,32 @@
+[
+  {
+    "name":"mdl-template-android-dot-com.zip",
+    "url":"https://rawgit.com/niravanu/templates/master/mdl-template-android-dot-com.zip",
+    "framework":"materialdesignlite1"
+  },
+  {
+    "name":"mdl-template-article.zip",
+    "url":"https://rawgit.com/niravanu/templates/master/mdl-template-article.zip",
+    "framework":"materialdesignlite1"
+  },
+  {
+    "name":"mdl-template-blog.zip",
+    "url":"https://rawgit.com/niravanu/templates/master/mdl-template-blog.zip",
+    "framework":"materialdesignlite1"
+  },
+  {
+    "name":"mdl-template-dashboard.zip",
+    "url":"https://rawgit.com/niravanu/templates/master/mdl-template-dashboard.zip",
+    "framework":"materialdesignlite1"
+  },
+  {
+    "name":"mdl-template-portfolio.zip",
+    "url":"https://rawgit.com/niravanu/templates/master/mdl-template-portfolio.zip",
+    "framework":"materialdesignlite1"
+  },
+    {
+    "name":"mdl-template-text-only.zip",
+    "url":"https://rawgit.com/niravanu/templates/master/mdl-template-text-only.zip",
+    "framework":"materialdesignlite1"
+  }
+]
