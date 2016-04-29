@@ -4,7 +4,7 @@
     "name": "Bootstrap",
     "versions": [{
       "id": "bootstrap4",
-      "name": "Bootstrap 4",
+      "name": "Bootstrap 4 (Not supported)",
       "url": "frameworks/bootstrap/bootstrap4.json5",
       "version": "4.0.0-alpha.2"
     }, {
