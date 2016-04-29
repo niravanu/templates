@@ -5,7 +5,7 @@
     "versions": [{
       "id": "bootstrap4",
       "name": "Bootstrap 4 (Not supported)",
-      "url": "frameworks/bootstrap/bootstrap4.json5",
+      "url": "https://raw.githubusercontent.com/niravanu/templates/master/bootstrap/bootstrap4.json5",
       "version": "4.0.0-alpha.2"
     }, {
       "id": "bootstrap3",
