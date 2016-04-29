@@ -1,0 +1,83 @@
+{
+  id: "bootstrap4",
+  name: "Bootstrap 4",
+  version: "4.0.0-alpha.2",
+  styles: [
+    "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+  ],
+  "scripts": [
+    "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"
+  ],
+  "tags": [{
+    "id": "header",
+    "name": "Header",
+    "template": "<h1 if=\"{options.type.value=='h1'}\">{options.text.value}</h1> \
+      <h2 if=\"{options.type.value=='h2'}\">{options.text.value}</h2> \
+      <h3 if=\"{options.type.value == 'h3'}\">{options.text.value}</h3> \
+      <h4 if=\"{options.type.value == 'h4'}\">{options.text.value}</h4> \
+      <h5 if=\"{options.type.value == 'h5'}\">{options.text.value}</h5> \
+      <h6 if=\"{options.type.value == 'h6'}\">{options.text.value}</h6>",
+    "options": [{
+      "id": "type",
+      "name": "Type",
+      "tag": "select",
+      "options": ["h1", "h2", "h3", "h4", "h5", "h6"],
+      "value": "h2"
+    }, {
+      "id": "text",
+      "name": "Text",
+      "tag": "input",
+      "value": "Header"
+    }]
+  }, {
+    "id": "button",
+    "name": "Button",
+    "template": "<button class='btn {options.style.value} {options.size.value}' disabled={options.disabled.value} type='button'> {options.label.value} </button>",
+    "options": [{
+      "id": "label",
+      "name": "Label",
+      "tag": "input",
+      "value": "Button"
+    }, {
+      "id": "size",
+      "name": "Size",
+      "tag": "select",
+      "options": ["btn-lg", "btn-def", "btn-sm"],
+      "value": "btn-def"
+    }, {
+      "id": "style",
+      "name": "Style",
+      "tag": "select",
+      "options": ["btn-default", "btn-warning", "btn-danger"],
+      "value": "btn-danger"
+    }, {
+      "id": "disabled",
+      "name": "Disabled",
+      "tag": "checkbox",
+      "value": false
+    }]
+  }, {
+    id: "card",
+    name: "Card",
+    template:
+      '<div class="card"> \
+        <img class="card-img-top" data-src="http://placehold.it/350x150" alt="Card image cap"> \
+        <div class="card-block"> \
+          <h4 class="card-title">Card title</h4> \
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p> \
+          <a href="#" class="btn btn-primary">Button</a> \
+        </div> \
+      </div>',
+    options: [{
+      "id": "title",
+      "name": "Title",
+      "tag": "input",
+      "value": "Title"
+    }, {
+      "id": "text",
+      "name": "Text",
+      "tag": "input",
+      "value": "Text"
+    }]
+  }]
+}
