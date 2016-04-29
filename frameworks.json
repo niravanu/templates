@@ -1,0 +1,40 @@
+{
+  "default": "bootstrap3",
+  "frameworks": [{
+    "name": "Bootstrap",
+    "versions": [{
+      "id": "bootstrap4",
+      "name": "Bootstrap 4",
+      "url": "frameworks/bootstrap/bootstrap4.json5",
+      "version": "4.0.0-alpha.2"
+    }, {
+      "id": "bootstrap3",
+      "name": "Bootstrap 3",
+      "url": "frameworks/bootstrap/bootstrap3.json",
+      "version": "3.3.6"
+    }, {
+      "id": "bootstrap2",
+      "name": "Bootstrap 2",
+      "url": "frameworks/bootstrap/bootstrap2.json",
+      "version": "2.3.2"
+    }]
+  }, {
+    "name": "Foundation",
+    "versions": [{
+      "id": "foundation",
+      "name": "Foundation",
+      "url": "frameworks/foundation/foundation.json",
+      "version": ""
+    }]
+  },
+  {
+    "name": "Material Design Lite",
+    "versions": [{
+      "id": "material-design-lite1",
+      "name": "Material Design Lite 1",
+      "url": "frameworks/materialdesignlite/materialdesignlite1.json",
+      "version": "1.1.3"
+    }]
+  }
+]
+}
