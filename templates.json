@@ -1,30 +1,39 @@
 [
   {
+    "id":"mdl-template-android-dot-com.zip",
     "name":"mdl-template-android-dot-com.zip",
     "url":"https://rawgit.com/niravanu/templates/master/mdl-template-android-dot-com.zip",
     "framework":"materialdesignlite1"
   },
   {
+    "id":"mdl-template-article.zip",
     "name":"mdl-template-article.zip",
     "url":"https://rawgit.com/niravanu/templates/master/mdl-template-article.zip",
     "framework":"materialdesignlite1"
   },
   {
+    "id":"mdl-template-blog.zip",
     "name":"mdl-template-blog.zip",
     "url":"https://rawgit.com/niravanu/templates/master/mdl-template-blog.zip",
     "framework":"materialdesignlite1"
   },
   {
-    "name":"mdl-template-dashboard.zip",
+    "id":"mdl-template-dashboard.zip",
+        "name":"mdl-template-dashboard.zip",
+
     "url":"https://rawgit.com/niravanu/templates/master/mdl-template-dashboard.zip",
     "framework":"materialdesignlite1"
   },
   {
+        "id":"mdl-template-portfolio.zip",
+
     "name":"mdl-template-portfolio.zip",
     "url":"https://rawgit.com/niravanu/templates/master/mdl-template-portfolio.zip",
     "framework":"materialdesignlite1"
   },
     {
+          "id":"mdl-template-text-only.zip",
+
     "name":"mdl-template-text-only.zip",
     "url":"https://rawgit.com/niravanu/templates/master/mdl-template-text-only.zip",
     "framework":"materialdesignlite1"
