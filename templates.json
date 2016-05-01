@@ -16,7 +16,7 @@
   {
     "id":"mdl-template-blog",
     "name":"BLOG",
-    "url":"https://getmdl.io/templates/blog/index.html"
+    "url":"https://getmdl.io/templates/blog/index.html",
     "src":"https://rawgit.com/niravanu/templates/master/mdl-template-blog.zip",
     "framework":"materialdesignlite1"
   },
