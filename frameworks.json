@@ -1,6 +1,7 @@
 {
   "default": "bootstrap4",
   "frameworks": [{
+    "id": "bootstrap",
     "name": "Bootstrap",
     "versions": [{
       "id": "bootstrap4",
@@ -19,6 +20,7 @@
       "version": "2.3.2"
     }]
   }, {
+    "id":"foundation",
     "name": "Foundation",
     "versions": [{
       "id": "foundation",
@@ -28,6 +30,7 @@
     }]
   },
   {
+    "id":"material-design-lite",
     "name": "Material Design Lite",
     "versions": [{
       "id": "material-design-lite1",
