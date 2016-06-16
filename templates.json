@@ -42,8 +42,19 @@
     "framework":"materialdesignlite1"
   },
   {
-      "id":"Framework7-with-AngularJS-demo-app",
-      "name":"Framework7-with-AngularJS-demo-app",
-      "src":"https://rawgit.com/niravanu/templates/master/Framework7-with-AngularJS-demo-app-master.zip"
+      "id":"split-view",
+      "name":"split-view",
+      "src":"https://rawgit.com/niravanu/templates/master/split-view.zip"
+  },
+  {
+      "id":"tab-bar",
+      "name":"tab-bar",
+      "src":"https://rawgit.com/niravanu/templates/master/tab-bar.zip"
+  },
+  {
+      "id":"template7-pages",
+      "name":"template7-pages",
+      "src":"https://rawgit.com/niravanu/templates/master/template7-pages.zip"
   }
+ 
 ]
