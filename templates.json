@@ -40,5 +40,10 @@
     "url":"https://getmdl.io/templates/text-only/index.html",
     "src":"https://rawgit.com/niravanu/templates/master/mdl-template-text-only.zip",
     "framework":"materialdesignlite1"
+  },
+  {
+      "id":"Framework7-with-AngularJS-demo-app",
+      "name":"Framework7-with-AngularJS-demo-app",
+      "src":"https://rawgit.com/niravanu/templates/master/Framework7-with-AngularJS-demo-app-master.zip"
   }
 ]
