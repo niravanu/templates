@@ -3,76 +3,76 @@
     "id":"mdl-template-android-dot-com",
     "name":"ANDROID.COM MDL SKIN",
     "url":"https://getmdl.io/templates/android-dot-com/index.html",
-    "src":"https://cdn.rawgit.com/niravanu/templates/master/mdl-template-android-dot-com.zip",
+    "src":"https://rawgit.com/niravanu/templates/master/mdl-template-android-dot-com.zip",
     "framework":"materialdesignlite1"
   },
   {
     "id":"mdl-template-article",
     "name":"STAND-ALONE ARTICLE",
     "url":"https://getmdl.io/templates/article/index.html",
-    "src":"https://cdn.rawgit.com/niravanu/templates/master/mdl-template-article.zip",
+    "src":"https://rawgit.com/niravanu/templates/master/mdl-template-article.zip",
     "framework":"materialdesignlite1"
   },
   {
     "id":"mdl-template-blog",
     "name":"BLOG",
     "url":"https://getmdl.io/templates/blog/index.html",
-    "src":"https://cdn.rawgit.com/niravanu/templates/master/mdl-template-blog.zip",
+    "src":"https://rawgit.com/niravanu/templates/master/mdl-template-blog.zip",
     "framework":"materialdesignlite1"
   },
   {
     "id":"mdl-template-dashboard",
     "name":"DASHBOARD",
     "url":"https://getmdl.io/templates/dashboard/index.html",
-    "src":"https://cdn.rawgit.com/niravanu/templates/master/mdl-template-dashboard.zip",
+    "src":"https://rawgit.com/niravanu/templates/master/mdl-template-dashboard.zip",
     "framework":"materialdesignlite1"
   },
   {
     "id":"mdl-template-portfolio",
     "name":"PORTFOLIO",
     "url":"https://getmdl.io/templates/portfolio/index.html",
-    "src":"https://cdn.rawgit.com/niravanu/templates/master/mdl-template-portfolio.zip",
+    "src":"https://rawgit.com/niravanu/templates/master/mdl-template-portfolio.zip",
     "framework":"materialdesignlite1"
   },
     {
     "id":"mdl-template-text-only",
     "name":"TEXT-HEAVY WEBPAGE",
     "url":"https://getmdl.io/templates/text-only/index.html",
-    "src":"https://cdn.rawgit.com/niravanu/templates/master/mdl-template-text-only.zip",
+    "src":"https://rawgit.com/niravanu/templates/master/mdl-template-text-only.zip",
     "framework":"materialdesignlite1"
   },
   {
       "id":"split-view",
       "name":"split-view",
-      "src":"https://cdn.rawgit.com/niravanu/templates/master/split-view.zip"
+      "src":"https://rawgit.com/niravanu/templates/master/split-view.zip"
   },
   {
       "id":"tab-bar",
       "name":"tab-bar",
-      "src":"https://cdn.rawgit.com/niravanu/templates/master/tab-bar.zip"
+      "src":"https://rawgit.com/niravanu/templates/master/tab-bar.zip"
   },
   {
       "id":"template7-pages",
       "name":"template7-pages",
-      "src":"https://cdn.rawgit.com/niravanu/templates/master/template7-pages.zip"
+      "src":"https://rawgit.com/niravanu/templates/master/template7-pages.zip"
   },
   {
       "id":"foundation.agency",
       "name":"Agency",
-      "url":"https://cdn.rawgit.com/niravanu/templates/master/foundation/agency.html",
-      "src":"https://cdn.rawgit.com/niravanu/templates/master/foundation/agency.html"
+      "url":"https://rawgit.com/niravanu/templates/master/foundation/agency.html",
+      "src":"https://rawgit.com/niravanu/templates/master/foundation/agency.html"
   },
   {
       "id":"foundation.blog-simple",
       "name":"Blog Simple",
-      "url":"https://cdn.rawgit.com/niravanu/templates/master/foundation/blog-simple.html",
-      "src":"https://cdn.rawgit.com/niravanu/templates/master/foundation/blog-simple.html"
+      "url":"https://rawgit.com/niravanu/templates/master/foundation/blog-simple.html",
+      "src":"https://rawgit.com/niravanu/templates/master/foundation/blog-simple.html"
   },
   {
       "id":"foundation.ecommerce",
       "name":"Ecommerce",
-      "url":"https://cdn.rawgit.com/niravanu/templates/master/foundation/ecommerce.html",
-      "src":"https://cdn.rawgit.com/niravanu/templates/master/foundation/ecommerce.html"
+      "url":"https://rawgit.com/niravanu/templates/master/foundation/ecommerce.html",
+      "src":"https://rawgit.com/niravanu/templates/master/foundation/ecommerce.html"
   }
 
 ]
