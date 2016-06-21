@@ -55,6 +55,21 @@
       "id":"template7-pages",
       "name":"template7-pages",
       "src":"https://rawgit.com/niravanu/templates/master/template7-pages.zip"
+  },
+  {
+      "id":"foundation.agency",
+      "name":"Agency",
+      "src":"https://rawgit.com/niravanu/templates/master/foundation/agency.html"
+  },
+  {
+      "id":"foundation.blog-simple",
+      "name":"Blog Simple",
+      "src":"https://rawgit.com/niravanu/templates/master/foundation/blog-simple.html"
+  },
+  {
+      "id":"foundation.ecommerce",
+      "name":"Ecommerce",
+      "src":"https://rawgit.com/niravanu/templates/master/foundation/ecommerce.html"
   }
- 
+
 ]
