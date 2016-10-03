@@ -1,0 +1,874 @@
+{
+ "kind": "pagespeedonline#result",
+ "id": "https://getmdl.io/templates/android-dot-com/index.html",
+ "responseCode": 200,
+ "title": "Android",
+ "score": 36,
+ "pageStats": {
+  "numberResources": 29,
+  "numberHosts": 4,
+  "totalRequestBytes": "2450",
+  "numberStaticResources": 21,
+  "htmlResponseBytes": "17622",
+  "cssResponseBytes": "153456",
+  "imageResponseBytes": "4278614",
+  "javascriptResponseBytes": "62770",
+  "otherResponseBytes": "174985",
+  "numberJsResources": 1,
+  "numberCssResources": 4
+ },
+ "formattedResults": {
+  "locale": "en_US",
+  "ruleResults": {
+   "AvoidLandingPageRedirects": {
+    "localizedRuleName": "Avoid landing page redirects",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your page has no redirects. Learn more about avoiding landing page redirects.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/AvoidRedirects"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "EnableGzipCompression": {
+    "localizedRuleName": "Enable compression",
+    "ruleImpact": 16.9814,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compressing resources with gzip or deflate can reduce the number of bytes sent over the network."
+      }
+     },
+     {
+      "header": {
+       "format": "Enable compression for the following resources to reduce their transfer size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
+        },
+        {
+         "type": "BYTES",
+         "value": "165.8KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "84%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://code.getmdl.io/1.2.1/material.min.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "116.3KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "85%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://code.getmdl.io/1.2.1/material.min.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "49.6KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "81%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "LeverageBrowserCaching": {
+    "localizedRuleName": "Leverage browser caching",
+    "ruleImpact": 8.499156746031744,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Setting an expiry date or a maximum age in the HTTP headers for static resources instructs the browser to load previously downloaded resources from local disk rather than over the network."
+      }
+     },
+     {
+      "header": {
+       "format": "Leverage browser caching for the following cacheable resources:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/LeverageBrowserCaching"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/android-logo-white.png"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/android-logo.png"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/andy.png"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/auto-on.jpg"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/devices.jpg"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/more-from-1.png"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/more-from-2.png"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/more-from-3.png"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/more-from-4.png"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/nexus6-on.jpg"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/nexus9-on.jpg"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/slide01.jpg"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/tv-on.jpg"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/wear-black-on.png"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/wear-silver-on.png"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/wear.png"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/styles.css"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MainResourceServerResponseTime": {
+    "localizedRuleName": "Reduce server response time",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your server responded quickly. Learn more about server response time optimization.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/Server"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "MinifyCss": {
+    "localizedRuleName": "Minify CSS",
+    "ruleImpact": 0.0835,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting CSS code can save many bytes of data and speed up download and parse times."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify CSS for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "835B"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "33%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/styles.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "835B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "33%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyHTML": {
+    "localizedRuleName": "Minify HTML",
+    "ruleImpact": 0.0632,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting HTML code, including any inline JavaScript and CSS contained in it, can save many bytes of data and speed up download and parse times."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify HTML for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "632B"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "19%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/index.html"
+          },
+          {
+           "type": "BYTES",
+           "value": "632B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "19%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyJavaScript": {
+    "localizedRuleName": "Minify JavaScript",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your JavaScript content is minified. Learn more about minifying JavaScript.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "MinimizeRenderBlockingResources": {
+    "localizedRuleName": "Eliminate render-blocking JavaScript and CSS in above-the-fold content",
+    "ruleImpact": 14.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your page has $1 blocking CSS resources. This causes a delay in rendering your page.",
+       "args": [
+        {
+         "type": "INT_LITERAL",
+         "value": "4"
+        }
+       ]
+      }
+     },
+     {
+      "header": {
+       "format": "None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML."
+      }
+     },
+     {
+      "header": {
+       "format": "Optimize CSS Delivery of the following:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://fonts.googleapis.com/icon?family=Material+Icons"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://code.getmdl.io/1.2.1/material.min.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/styles.css"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "OptimizeImages": {
+    "localizedRuleName": "Optimize images",
+    "ruleImpact": 154.8933,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Properly formatting and compressing images can save many bytes of data."
+      }
+     },
+     {
+      "header": {
+       "format": "Optimize the following images to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
+        },
+        {
+         "type": "BYTES",
+         "value": "1.5MiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "82%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Compressing and resizing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/more-from-1.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "633KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "84%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing and resizing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/more-from-4.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "311.5KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "77%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing and resizing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/more-from-2.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "182.7KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "81%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing and resizing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/tv-on.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "137.4KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "92%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing and resizing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/more-from-3.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "105.6KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "80%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing and resizing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/nexus9-on.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "83.8KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "95%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing and resizing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/wear-silver-on.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "22KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "69%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing and resizing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/nexus6-on.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "20.5KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "88%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing and resizing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/wear-black-on.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "14.5KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "61%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing and resizing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/android-logo.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "1KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "35%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing and resizing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/android-dot-com/images/android-logo-white.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "589B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "23%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "PrioritizeVisibleContent": {
+    "localizedRuleName": "Prioritize visible content",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "You have the above-the-fold content properly prioritized. Learn more about prioritizing visible content.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "version": {
+  "major": 1,
+  "minor": 15
+ },
+ "screenshot": {
+  "data": "_9j_4AAQSkZJRgABAQAAAQABAAD_2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj_2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj_wAARCADwAUADASIAAhEBAxEB_8QAHAABAAIDAQEBAAAAAAAAAAAAAAYHAwQFAgEI_8QAUhAAAQMDAwIDBQUCCQgEDwAAAQIDBAAFEQYSIRMxB0FRFCJSYXEVMoGRoSNCCBYzNrGys8HRFyUmVWJ0dpM0N0N1JDVEU2NkcoKFkqK04eLw_8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwQFBv_EADYRAAICAQMBBAgFAgcAAAAAAAABAhEDBBIhMRNBUWEFIjJxkaGx0QYUFoHBI1NCUnKS4fDx_9oADAMBAAIRAxEAPwD9TuuIabK3VpQhPdSjgD8a8R5LEjd0Hm3dvfYsKx-VeJ8f2uI6xvKN4xuHlzWtZ7b9nB39sXepjuMYx-J9aA6NarVwhvLUlqXHWpOchLgJGO_n5V6uMdUuBIjocLanW1ICx3SSMZqHv6fuMhDaBCgxg3FMYlpz-U95PJ4HGAfzrDLknD2VZlknKPRWS9M-IqMqQmUwY6eFOBwbR9TWGLd4Uku9N9G1t0M7yoBK1EAgJOee4riXGwPG4vSIbEYsBbLqY6jtQ6UhQIIA4PIwflWCLp6W5PU9IZjx2luPOBDStwbKm0pSRwOQQazeXLdbSjyZLqiRyLrFajyXW3UPmOMrQ0tJUPl34_Gvky7w4i0NuvJLyloR0kqBWNxABIz25qLuacnuwwz7NCjqYiqjhTS_-kE45VxwOM855NbDtjnB4tJjRHEe2ple1KXhzbuBKcY7jt3xio7bL_lI7TJ4EvpSldh0ilKUApSlAKUpQClaN0trNxDIfUsBpRWkJOOcEfpmucrTLCu8qURjuV5V3z97v-Hrg-VAd_NK4UHTrUSQy6mS8tTThcG7HOU7SDXd8qAZpmuBN0zHklwpfdZ3lZIbCQDuUCcjHPZP5UVptpfTS7JccabQ4hKVJSeFjnJ8znkUB36Vo223NwFSS0pRS851NpxhPAGB-Ve7pCRcYa47q1oSogkoODwc_r2_GgNvNKjjelmm87ZsoZKV5ynJUkYBJxz3PFde0wG7bDTGZUtTaCSnecnk5oDcpWpcIDE8NCQkKDa944B8iP7_ANKyQY4iRWmAtbmwYK1nKlHzJ-ZPNAZ6ZrnXW1ouK2VLfea6W7AbIwdwwc5Hpn861Tp6OSlfVX1dyVrWEpBURnntwee_l5UB26U8q40-wMzZLry5D7anMH3CAQQMd_MfI8d_U0B2c0rRs9uRbIqmG3FOJK1LyrGea93KAzcG2m5G4obcDmEnGSM4z-dAbdK4iLAgnL8t90htLIHCRtSQR28-4J8wTXbGAMUBqzpzUII6gcWpedqG0FaiByTgeQrYacQ62hxtQUhYCkkeYPY1gnQo81CUyW94ScghRSRkYPIOe1e4bAixm2UrWtKBtSVnJx5D8BxQGhe9QWqxhr7WmtRurnYF5yrHfgVs2m5Q7tCRLtz6H4yyQlxOcHBwe_zqOay0WjUU1iW1OXCkNtlpSg0HAtOcgYJ4IPnXX0pZjYbM3BVJMlSVrWXSgIyVKJ7Dt3oDc6rnxGnVc-I1jpQGTqufEadVz4jWOlAZOq58Rp1XPiNY6UBk6rnxGnVc-I1jpQGTqufEadVz4jWOlAZOq58Rp1XPiNY6UBk6rnxGnVc-I1jpQGTqufEadVz4jWOlAZOq58Rp1XPiNY6UBk6rnxGnVc-I1jpQGTqufEadVz4jWOlAZOq58Rp1XPiNY6UBk6rnxGnVc-I1jpQGTqufEadVz4jWOlAZOq58Rp1XPiNY6UBk6rnxGnVc-I1jpQGTqufEadVz4jWOlAZOq58Rp1XPiNY6UBk6rnxGnVc-I1jpQGTqufEadVz4jWOlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQGlGukWTc5kBpajKiBCnklJAAUMjB863agDMS4y9f6lbtlxTAIbjlS-iHCo7eBzwB3z51rPa0njTsAOLbYuD0xyG9JSyXEoDf3lpQO5II4-tAWRXlTiErSlS0hSvugkAn6DzqIaKvsmfdJ0B-S5PYabS8zLcimOo5OFIUnGMjjmtLWUWa7rnTns9w6Bc6oYPQSroEI948_e3fPtQE-pUN9rvV8vF4Ytdxbt8e2uBhILCXC85tySrPZP0rRa1Rc7vbNPx4SmodwuTrrTz-zelsNfeKUn1oCwKVBmb3c7Teb5HukxM9i325MpBDKWyok-ePPy9K5Nr1dcDJtbztwXNMp1KJMIW9TaGUq80OY5xx370BZhebAc99JLYysAglPGeRWtaLlGu1vZnQVqXHeBKFKSUk4OOx-YqEaaiTm9X6qL1x6oa2h8dBKeuS2raePu7fl3rk2WZeLNoG1XaNcG_ZG3Et-xFgYUhThByvvnOe1AWzSoBqTU8hOpZdtZuS7ZHiIT-0bhGSt1xQzg8HakDH1rCrUt7n23TXsjjcSbOlOxXi4zlBKRwraeQPPFAWLSta2tSGIDDU2QJMlKcOPbNu8-uB2rha5uU-3MWsWx5DL0mc3HKloC04UD3H1x2oCTUqFM3e5WW_XSDdJouLDFuM9C-ilpQIOCnjyrRdu-oYFghajlT2H476m1OwAwEpQ2s4G1ffIyO9AWD1EdTZvTvxnbkZx64o4tDaSpxaUJHdSiAB-JqBoizT4rPFNxwPYkun9gnlnqfyX_wC3et3xXaec0bLW2_02mykut7ArqgqSAMntg88UBJJV0ixbhChPLUJEwqDICSQraMnJ8uK3ar2-Rrgm-aNYFwSuceviUtgYAKB-4OMgcD9azNajuNnj6oauLybg7aQ2pl0thsr3jgKA44JH60BPKVXNi1PPVebU05cXLi3MV05DRt6mRHURkFCscjPHNSjWcy5QbN1bQ2pTpdSlxxLXVLLZ-8sI_exQHepUQ03dZbzdzV9tQbnGYa3tuuI6DjS8HIdTjhPzrj2_UdyautmLl1FxZnv9B1AgqZZTnsWnCBuxQFj0qAKnX-c5qhcW7oitWuQsNI9mSsqATu2kny4-vNYvtu-s2uxX1-eytie-005CTHCUpSvIyFd88ZoCxKVXV81VKVf7pEYua7azBPTbDcEyC-5jJ3HB2pzxiphpa5O3awQpslrovuo_aIwRhQJBwD5cZoDq0pSgFKUoBSlKAUpSgFKUoBSlKAjEvTMs3ufdLbenoT8wISpIYStICRjz8_MHjFeToyKiyQ4UeVIZlRHjJampwXA6fvKI7HPp9KlNM0By7Nb50Rbzlyu79wccAACm0ttoA-FI8znk1r6isTl1l2-ZFnLhTIK1KbcDYcBChggg12VutoUhKlpClnakE9zgnH5An8K9bh6j170BGp2mZBuMyXabu_blTQBKQlpLgWQMbk5-6rHnXP1DZIVosVpRENwYVb3csy4zPWW0SDuUtPmCe-Km2R6ivLbiFjLa0qGSMpVnkcH8qAgGkYD10vd7mz1SpUGVFRE60pjoF74tqPJIHAruWnTs-3qisjUM1y2xlAtxumlKikdkKX3KflUl3Anvk_WsbbzTgUW3EKCVFJIPYg4I_OgOI1p9xjUU65R560MzkASIxaBClBBSCFdxjOcVqq0ghWjY-n_bV7GlpX1-mMnCyr7ufnjvUl9oa3IT1E7lqUlIzySM5A-mD-VfVutoW2ha0pW4SEAnlWBk4_CgODctPPuXly6Wi5u22W8gNv7WkuIdA7EpPmPWvTunVPOWNyRcZL7tseU8XHgFKeJHYnjA9K7-R618yPUUBpGJJN4RLE5wRAyWzE2jaVZzvz3z5Vr6gsybx9n7n1M-ySkShhO7cU_u_Lv3rq7hjORjv3rC3LjuvFlt5tboBJQDkgA7T-oI_CgOa_YWn9RPXR5wrQ9CMJccp4KSck5_SuQ1otfSiwpV4kybNFcDjUNTaQeDlKVLHJAqWh5tTq2wtJcRjcnPIznH54Ne8j1FAcOZYnHdTsXmLOXHcS0GHmukFh1sKzjJ-79a2tRWpu92WVbnnFNofSBvSMlJBBBx9RXRyM4yMn51hRLjr3bH21bSAdqgcE9vzoDio088uZZJc24qkSLb1Pe6IR1QoYGQDxgfnX1emIz0y-uynFOs3ZCEONbduwJGOD6-dd_cOORz25719JA7kUBHrRY7lBfjCRqCZKhxhhtgtJRuGMALUOVACt6_WtV0itoamSIUhlwOtPsnlKh6jsofI108j-6vAebLi2wtJWgAqTnlIPbP5UBG42kwtd0eu892dKuEf2VxwNpaCW_QAefzNazWkJfUtRl31-Q3bHUrjtGOlKdqeMHByTjjNSwPtF0tB1HUAyU7hkdu_wCY_MVkJA7kDzoDhRNPJjJvyRJUr7VcW4fcx0tySnA5571rvaVQ7p20Wky1hNvdacDvTGXNhPBGeM5qRpcQoqCVAlJwRnscZ_vr7kEDBHPbmgI7N05JF3lXCy3Z62OzMe0oS0lxCyOAoA9lfOt9FtltuWzbdZSmooUHkuAKMrI4Kz5Y-VdQEHtzSgFKUoBSlKAUpSgFKUoBSlKAUpSgFc-9Wpu6sttuuutdNRUFNnB7Y_pwfqkV0KUBHf4qReo4pMh8bhjyyPc24-nnj6jsa9r0xGW6lbjpIBBKA0hKTjHGB-7wMJ7A5Nd-lAcKHpqNEmxpLbzpLGNqCAE52gZ47E4yfXNZY1gYjz2pTbqh03FOBAQkDJUtWM9wPfOfXAz2rsUoCNN6SjJLhVKfUpZJCsJBTnGcHyzjmsrel46GXUdbK3FJVu6KNowVHG3tj3zx8gfKpBSgOFE063ElMvsynStrOC4lKjzu8zz2UePM4NbV0tIuTTCJEhWWlKUFBtPmnH4H0PcGunSgOAdNtot7sVl5Z6shLynFk7gAefqSnKfLOa8L0sypSyiU8jdkEBCfulW7B9TnHvd8ACpFSgI9J0tGeAAfcbSGm2tqEAA7MYz65x2471vWyztW55TjDiipQCTuSCSkLUrGe_7_AOldOlAR5Wl2CtxXtDnvr3H3E57nz-LnhXcV7l6dblzJb7rpR1nApKUjcEjaQrg-ZJJz5EA13qUBx7ZYWoE4Sg8t5SEFtAcSPdGR5-vGM-ea1TpSLj3HnEHPBShIOMk4-nNSKlARxvTZj3GK9EfQhppW8hTYKgQFABIxgA7sn1rNctOMT5bz7j7iC6UkoSkY90Y58zxXdpQHCa03GbhSo3WeKZDiXCsn3hg5xnz7kZ9DWI6UjdPamQ8F7dpWUpKiPe4PqOf0FSKlAcEaaYFudiB9eHC0S4UJKsoSEg_POAefOvlwsCpl19oLyEs7ADlAUsqAAA5GNvHKex59a79KAjatJxw2sJkPFZThKiANvBGAR2Bz29OKyN6e6lujsSnwlxtbiz0UAJ99W7CQfukYABHI59akFKA0LRbUWxpTTLhU0SDtKQMEJCSePXbn6k1v0pQClKUApSlAKUpQClKUApzjODivK1BKSVdgMmqllW92RdBN-15yHFudROx8hLQzwn5Af0VSeSMPaLwg59C3M1ikPtR2S6-sIbGAVHsM1xot5iQNMPXO6SkMxYiVrkPuHgBJ5UfUnj6kiqn8L7vqbxM8QZerlSZVs0ZDSuHDg54meu8djzhSleRwkHg1ZO1aK1Tpl7A5oTQVydUS24ljmqcacfUtlxKGGzhbp2n3UnyJpJ7U2ErdHUStKkhSVBST2IOQa9VSVk1VqOzWWFKRZZT8Zx9SPZC17yQce9jG5O45wSMcfOrniSESWEutHKVfofMVhp9R20eVT8LT-hrmxLG-Ha_czUoMk4Aya-Z94pz7wGSPMV0GJ9pStC_S3rfZLhMiMOSJMeO460y2ncpxYSSlIA75OKA3ULStJUhQUkHBKTkZ9M16qvtE6U09_FuGIcx1q7tshUqVb5SmnlOkZWVpB5O4nhaa6nh7OuU1m8C4zfbY8WcqJFfU0lC1hCQFlW3AOFkjOB901NDiuGS2lV9rXxXsWkrwbXNjXOTMQgLcTFYCkoB7AqJAJI5wPLviphp-8RL9Z4tztqlrhyUb21LSUKx55SeQQcgg-lVtE0dGlKVJApSsUqQzEjPSJLiGmGUFxxxZwlCQMkk-QFAZa-BQIyCCPlUGjeLGipN7Nsav0bqhO4PqymOrjOA6fdzUoYS3bC20yk-yuq9zbylsnnH0NZzyKFPu-hNG-pxCXENlQC15KU-Zx3x-dfXlpZRudOxOQMq45JwP1NUl4ga6NzvU60Qrgbfb4SnWDJYP7Zx9KSlWFAgoSFZRkfMnjAqA6PuE3Ti5UpvVFykyQtLjDM18yGSc8hQUrjAz73c_LvWUtVCLaZtHTykkz9WE4BJOMVjjSGpTCHmFhbSxlKh51HNL6hRqywQpbDGxMgLRKRuyGlIJStIPmCQcH0rrX26RbBY5VxlhQixG9xSgZJ7AAfMkgVpHJvk66Ixarg6VDVJR_G6U_cmWk2BssOLCNqX1KdOT5cYJ-VWza75BudjRdorqjDWlSgpaSgjaSCCD2OQRirqaZLi11I3adQT03tX2xLZS0tfszkNLGwRXN2AQvJKweAScfeBAAqcCodG0vAvtxbvt5jKW-sJUiKp0lkbfuKUkYC1DjBORwOKmPzNIu1ZDSXCFM1EfEGVfUxGYmmdiJLqVrdeUoDpoSP3fmfXyANRnw-f1bDnx_t99cuDJcLOFuhamlYyFZ7EZPI79vKspaiMZ7Dtx6JzwvNvS8r5ZalKClbnCKUpQClKUBq3GfGt0ZUiY6ltpOOSe-ewFa9mvUC8tKXb30u7fvJBGR9cE1HNfWVGoHGIkpUkxmklwNspGFL7ZPqAPyz861dA6XhaeuzzsRmQHH2Nii4OE-9njHkcefpWLy-vtRdQdXRAvH7XmodNa1tlrss8xYcizS33EJQklTgQ7tVkg8p2Aj8fWq50J4hXiZ4b62uN1vTyrnbGmVxCWGTkuq6Y5Kc8Kx29akX8J-O8vxItLyGXVMt2GVucCCUp91_uewr81x5chiLJjtOFLMkJS8kdlBJ3D9a1cU-pS2uh-hvDOz6i8Z9FvQr5qd5u2Q7shcpsNJ3PN9MEJSUgDIOe4Iyc-Qr9RWe2w7PbItutkdEaFFbDTLSBwhI8v_wA-ZyaoX-Bl_NDUX_eDf9lX6GzU9B1FVX4pTZLGomkNPuJbbty3kt593fuIzjtmrUNVJ4s_zk_-FL_rmgItLvE1NihyEvYdcddSo7RyB2qyvC95axfG1vrcS3LAS2okhsEHt9aqadxpiAP_AEz1Wn4Vf9I1H_vaP6pqmNKn-_1Ncrdr3L6ET8S5t61Ffpdrh3duz2WKlSCtBV1pLgwSMpxgZG0AnHBJ7ioSjS8q3TjdtO3xcW4sIQEJlqU4p08A4UPzwoEYPFWNqm6yrfbpbzciI0tN2caC1RG1K6QSTsGQdxz5nmoW_ri8PPgRfZkpJwlAhtKJ_wDpry55W5239vqetpvRk88LhVePP2L903cV3WxQZrzaWnnmgXW0nISscKA-WQcfLFbU6fEgMqenSWYzSRkrdWEJH4moh4OKlfxHZanBfXYkvtkq_eG7IP5KA_Cohqq6WjUGqrqzqGcyzbrf_wCCxWHJSWgp0H33SCQTzwPp9a7Mmp2Ylk6tnnYtOp5HFukupZpTYdTMh1Jg3JPIDrZClJPyWPeT-YrRtMb-LbRtEVATFVvXEWpRPvqJUQonJzuJOT6_OqytMywaVnwrlp27NO_tQ1MjImIdD7SlAZABzlOc_hVsa06iNPyHWVYcZKVg4zxnB_Q1hPUTyYJZcftR7u7oWzYoYJWuYv48EYuVvuAUAh61hQ3Fbr0hW5aie2AP1_prr6WmKTclxVqaSXG95aa3FKFDHYkefP1rjxilFujFeVHanA8ycdq13X7jBfcctSIztxKAppuQSG1uZOEkp5Gew-eK-T0HpyefUxxwgk7rq-l_b50b5U3Cr7v-SzRSo_ou43e62VqbfIlviuPpQ4ymG-t0FCkg-9uSClQOQRz27117jPi22C_NuEhuNEYQVuvOHCUJ9SfSvvjzGq4Zs1Ufj7b52oIVqtcCOw9FYke1S1KmJaKCEkNoUgkbkqyo58tvzq1IE2LcYiJMCSxKjL-46w4FoV9COKqTXEp-XqjUttQ2lQQzFLYT95RUk5FQ6fD7zPJOUI7oK6Kmk6QNxemNm22wl8bW0JuCMsAnPHv-9lOQN2fXvX6K8Kk3NOgrbC1G607dYzZYeCCg7UAkNA7CRnphJz_fVaXJouxl9BGVqUlQIOPunIOfwwPrU78M7mZN71HDdLSFMOMBpAOFqT08k4zzjjtVFijj4buzHBrZ6qXspJf9-p17rpu2COFv2yFJfU6Sp4xmuorIP3lEcn51xtOWmzznStVmhLSiW80d0dkj3VrGMbfkKmF_KBHaLnSxv_7QHHY1CvDmFJgJdauAih5dwfdQEqKjtUpRBH15xXkZ7hn2p8Kj1IJPFJvr_wCk8tdvYtscsxkIbbKioIQgISnPkEjgCuB4iR4lxtLFrmSVsplPBW1KSQ4Ee-UnHYHAqWCo1rBAWqD-zSpSS6oKUM7fc5x8yK9eowjS6GOOnNWVZZIFqs0_7StkxhpsK2dNcIrcwU84UpRI-oqbaRjsvKctcQvLhdT7QeWoHaFOYIQAe3r-J9M1WyPup-gq7rBJYhaNhS5TiWo7EIOuuK7JSlOST9ADUvBFHoavFHDG13ncSABgcCsFwfMaDJkJSFFppbgB89qScfpX511B4zeIAuYXYdNRPstSELZ67C1OOJIzlXvjaT6Dt6mrg0tqcas0dcpDrBizmUvR5cXnLK-nnAJ7gggg-ee3FIzjLhM81xa6oqI-MUyZPtSrjaonTfhR5DxaU4ClK1KCtvOOCBgH1raleKO3V8WBaLcw5EDrLbjzynAvepQyAAcDA9apu-tyYcyxRi0ptxNvZbcQ7lJx75wR34AzXS02jF7t6zlSVS2lFZ7qX1E8n_8AuM1DwwctzRKyySpM_RkLxDlu-Es7Vb8NgTWnX2W2W9xQVJd6aCfPHYn6eVczSXiNIft6BqeazFmuEFoezKaDgx-6eQvkHt-veut4JtFnwuSlxKkH2iYVJcSRjLqu4PlWtq7Vdl0uzFF6fKEpf9maLMVThDmAfIeihg_hXJr4vJFY1NxvwdPxNcEbt1ZytPeKcy4-I0W2IdjzLJLdVHQ4iOULbXglJ9SOMEng5J4xVzA8VGNOiO7PVJYSxvCVMqKGtiiQEqPOOeCnnzr7e9YW62aafuy1uZbX0Exi2S8p_nDOzyWcfTzzittPNPGnuvz8fMplhUqok1K_O9r8b9UN6iucKdo96UpbnUjxGnCh6O2Ej3VDadx_ePbknyxV1aX1Pb9R2-PJtr3XK0ZdSE7VMqHBStJ5BByMc9q3U1LoZtNdSm_GO4T4niO25AkvsvsxGg0ptRBTuBKgPr5-taugLy7b9Xs3u-zZDodaU0-o5UdpGE59QMDgDjyqa-Leipl5ukK52FKHblt6bzCnUpKkJ-6tIUfLOD9RXO0h4dTJEwq1IhuGlJClRkPBbjye2eD7qc8Z715mTFm7e4rvvyOiM4bOSzdR2aNqSxTYMmTIahTobjDvRIGULSfe5HcAkjNfiuwaZtrvg7r6-rjB6RDnRYsGQs-82nqDdjHGSlSc8V-09YS02jRV7lp91MS3vLT8trZx_dX5fssD2T-B3e5BHvTLkl0n1CXmkD-qa9U5i6v4OmlIemvDiDKhvPuuXlpqe8HSMIWUAbU4A4-vNSnVV7jMZZbuURpUVxK5iFPhC0pI91PfjcSOecYrleFwnDwt0a7CW0W27UgraWnlw7PdAPlzUIu2mZkDQt6vOokH7Wny2i5jClNt9QE49Mny8gBVd7Tuuh26LTYtRJxySrlJdLdvz8F_BL4M6BCWw5bZkdltTgdWpUgKQ82gHd2xyU5Vn_Z7VG5c2TrFvUd_MPECHEXCgLAUFkLcQpQI_eOEgn0zj1rW0heIl61Xb4HTfcjmWsoaeQko6AjqQArA7_pV1WmBFtcViHb2ER4zZwhtAwBk5P6mtJyUper0JyYfymNwzRe-VNX3K_rwl8T8_XGJ_oZZ3UKK1vSZKA2kZPu4_Or009aYdsZfehtKbdnrRJkEqJ3OdNKcgHtwkcCqh0cR7ToPBH_j66_0Lq8x2qu3b0OHc5dSlPFCC63bkh9KmG3Lo-6VOdinYMEeZzVYz3-lEcEYqZQANyx99QyM5PkPkP1q5fHtzFvsqPV9xX5JH-NUpP8AehPgAklB4FePmxKOSm7R9n6Mh2miTl58fE_SvhmIJ0w3KtuFNSX3HVrCs71BW0n07JHb-mvyVquPIZ19d2UuNmYi5yEpdV5KC9wIz9P1r9R-BwI8MrUCCDve4Ix_2qqq3xo8LpEaNcdRRprBaVOdkvNuAhf7ZbaUhJA7A5716eKKjGK8D5LL6s5x8_5KfuaZUq4y33HmZUxTSpIdjpAzyD2SABgDsBwK_bFuWxftKxHAsqYnQ21bh3wpAOfrVFeCmgJNun6juc9yLJiRmplqcYaB3rWAncUkjABGR681Z3grNae0PFgMdYotmIqVOqBUpONyScfI4_CrKFp7uSk5xkkkqObrt4aV6QhlCv8ANsuQFSDn32g3sSO3B3nI8-KzHVmmGlx5MScpcloFSEOxnG0vrx7qEuKSE_e-fzqMeOJcueq2baY3Uah2WRLQrplR6qiQMfPDfHzJqVXqBDnTFQXLJM9iiRuVsxd6XnVJwCrnlKRng9yr5Vy4PRGjhk7WONKXiaYsk29t8HT01ZpDCp0CTdbi1LjOBZ9nf2tlLg3jagggAK3p_wDdrQ19INstEqHJ1HhL7Kg79oNs9Jps5G5agkHnskDlR7DgkR_Rl8lQoyUstuOuxy7bmzIydzYKFsgnuS3vKcdykjmufP6KPF2THu9pumoG7TFafSiOwHd0lwAqfcQSBwCEJHZITgedenJuLtmj1Hrb3y_Cu87_AIX6qsLs6a2_eba3e7q626qAy2tltK0thGElYAWtWMqI7nGM4yehqbSb_wBr6gvpkslh9hkhnadw6STuz5c-VRW0WGJ4iTrhFuzS41ttLTjcWN_JvNuPOLUFuY7FASAE9uKlei7tLvXg03MuLheliI-w48e7pbUpG_6kJB-uaycVuOPUpOM4rpyRWO0p5VvSlQSZqy2kn9zCgnJ_OtW3ablzvEB-OWnorqnw864QUrabQAAoHuM44I4JV3PNdG3fyumv94V_apq5iOa137HaXieXosMZJ_t9LOHrn-ZV_P8A6g__AGZqsvBPJ1S7kk_6M2s8_wDsVZuuf5lX_wD3B_8AszVZeCX86Xf-GbX_AFKiPsM9J-0i6a4t_ZD78FrOCtS0A-mU4z-tcnU_iPprTF0Vb73NdjSAlJGWFlKioZSlKgMFRHlXftFzh3q1RLnD3mNIG5kvNltXcjG1XIPB4rCS3KjWL2uykpFvVH1X9hFxKnBPZgdbGBlxkuBWPQYxirbu1pbGgpVqkvHopgqaccSjOUhOSdp79u1VrdP-uBX_ABDB_wDtF1beouNO3T_dHv6hq2TmJfJqcmVes7opa6JtrE0NSb1MLsdKEt4hlWxOApKUnf5ZqwfDaBGLN4lIluzTNU2H1OtbCs9POTySSQ5zVMarjXE6gmKRcENtqDakJMUHaOmnHO7n61dXhLFlRdOr9tCytwtKS4pvphwdFA3AenGPwrzNMl2tLu95zrU5Mj2yaK38ZNB2y1z7JcoMRLcNx2La9nUJ2FThSCMnJIQVck96yaf8O7SjxWudj3vGPaY8WehzPvOKUs-6rywMeVTHx4_m5Yf-IIH9oa92P_r_ANY_90Qv6yq9MuS0QbdpzTsli3xkRISA450284ClklR5PmTVM-KDTFxLanUkticp9AVwdyUNFNXvcIbM-I5Gkp3NODBAOD8iD5Gobf4jDepkMBtJabsUnaFjdyCADz54HfvXLn0ctTONSrbz8mv5OrTauOle5xs96Nltol-zqC-ot5ZGBx_JN_4GsXiZYLJcER5VynsW-Sk7k9R8Ne0BAzjuMqHkRyM47Guvo63RnLHYbgpCvakQm07gogKynuR5nvya4Hjm3IkaNZi2-M3IuEucxFjpXjIWtWMjP6_Lk9qnS6b8vjWHJT28fBUZZsvay3x4spY3KKHy6G3UTiSoyPbV9TeRg85yTjAxVpeBBYT9pNsOJUQhClJC9xGSe_41X1s0vdrzZrBdCyyhh_pQ3HdyQUul1SSdnc47_hV1WPw7s1kaDFumTY11W3vMhuSpK148yB7pGfLGPlXXNYU_6cEvM549p_jlZGtZ2PWOo9fQRb4qLHa4jmDemJaVvOsjCtob4IJIIwQRgnPFfLLY9ZWDxMlSnIyNQ2mYvCLlJlpadiNLVlSNnnt7AAAEdsZq2aVFsnavArTxm_jVd9O3LTmmNNOzEz2Ay5cFzGWm20qxuASVbieMc4HPnUbn-H17P8GaPpCLC_z6G21Lj9VA9_2jqK97O3sfWrvxSoLFe-DytR27TVusGpdNO2026KlhExMtp5p4J4HCTuSojnsRx3rteJCbo9o65RLDbnJ8-W0qO2lC20BvcD76t5AIHoOealGKUJTadoo3w7sOt7BrG0y7tZlPwDam4T6mXWAWHM8kjflQTjnHfPFXDfXZbNrfNvhuTJKklCG0OobOSDg7lEAAcfOujilRSqi88s8kt03b8ynYtk1nGgWRf2NHVJjzHnZDaJTCSEEowUnsCr38459e9W7EccejtuPMLjuKGVNLUlRQfQlJIP4GstKzx4Y4vZInNz6lfeK2mbjqQ2tNtb3pjlwr95IxnGO5HpUGtXhlekXKGqbECoqXkF5PVRyj97svP5VfVKyyaVZJ7nJ_L7HZi9JajDi7GD9X3LvNO1W2JaYKIdva6UZskpRuKsZOTyefOo74lW2bfNOu2iFCcfEkoUt1LyGw3tWlXO7vnB7CpdSujakqXBxRdO2rIfoe1zbPIvUWVBcTGmT35qZBfQpKt5GE7RyOB511dM6at2m2X27Yl4B4hSy44V5IyB9ODXbpVlwqIk1J3VEc1NaZlwkRnrc4hh1pSeotef2iAc7Rg8HkkHyP1rjXhWtJal2yLBihpSdpnOOpQ1g98gErPzASM-o71PMUqIra213kN2kjj6WsTFgszEFtZfWlSnXX1pAU66o5WsjyyewHYADyrgau05dkahY1RpF2MLu2x7LJiSiUszWQcpSVD7q0nOFf0VN6VIKbuVp15qTUhmRbYzpP2iGYM-UqYiSXW85BShPJUBkJPHfvVkQ9PxbZpNrT9uStuG1G9mQcgqAx94-pJJJ-ZNdzFKENWqZA4ei5LH2IpyYlSoTi3HglrHUyrcAnn3eR55qdoJIyRgnyr7ShWGOMPZVEU8R3rurTcyBYrE_dpM5hxjKJDTKGdwxuUVkE984APbyqvvD216v0zqRmRN0m-9DdtEK3uuMTmCppbSQFHaVDcM-h-mauzFKlSaVFqXUhGtNIr1Pe4hkIYTCYa911aQ4Q5nIO09u_es2jNNybRNmuz1B3GERzu3e7zlX-yTwMfrUxpVa5svudURJ_SjL2ozdyw31vbWpeSTuyhooB9M813r3BN0sc-AF9IyozjG8jO3ckpzjzxmt-lK8SpVuudKXaULOxbIplogWtMZbgUhG9SX4ysJBPJ2srOO3IGeatInJJA7nNKVPdRFd5AfFO1XPUEa1wLdbHnkR7lFnLkdZtKAltWSACrcTz2x5d69MWu5wfFu93xFtekW-4Qo0RDzbzY2qQSSSlSgccnn5dqnlKEnyoberNc7peHZiFORB7G9DQG1IUSFjucg-fP-NTOlUnFyqpNe4sml1VnH0xHlQbUxAlMhIjIDbawsHckdvxAxXC1TZpEuTeP80C4uzYqWYMouIHsSgkjncQUDd7-5AJP1Aqa0qYpxVN37yJO3dUVvPs0xxbCrdpyTb0NMbFll1hSuqlSFNFKd46iEqSo5JCjvIxyaksS-ahXDbD2mHGrgUbd5kslpJ-awonHnjaT8jUjxTFWIFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUoa-ZoD7SvnNfM0B6pXwV9oBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgBr5ivtKA-YpivtKAClKUApSlAKUpQClKUApSlAKd-wzSor4muuM6RkLZcW2vqtjchRScbvUUN9NgeozQwp1uaXxJXg_Cfypg_Cfyqg7UzOuDQWLs81lzp4U6snPf19Mn8KzKhTgmMr7Yfw-50wnqL3J4Pcbv9k0PopfhpRbi8yv_S_uXtg_Cfypg_CfyqjG7fcFuISbu8kE-8S6rCRgnP3u2QBn148qxSYs9iPId-1JSw0M-6teFc44O75c-nHehC_DcW6Wdf7X9y9zkdwRSq58H5L76LqH33Xdqm8dRZVjhXbNWNQ8LX6R6PUSwN3Vc-9WKUpQ5BSlKAUpSgFKUoBSlKAUpSgFKUoCu7r4mRol1XFiRW5LIWpHXL4Rgjg8Y7ZzySMiphGuyZ0CJMt460eQ31EqKTk_7OB2Pfv6V0Og1_5pr_5B_hXtKQkYSAkegGBQHLXPmoCsxAopIGEhXPGf18qyRJMta1IdZQClBO8gpBPl-Hl3-ddGhGRg9qA5jdwkLCFiMQ2rCgMKJ2n970_DvXozJPsjrwj-8CAhG1WTx3NdGlAcp2bMDSiI-wlJKTtUraecAj1JA_OvSpktP_k2SewCVZxk857cYH5106UBzm5ckturU2BhaQAUKwkFPOR3ODxxWMzZjYG6NvyrjCVcJ3EY-uAK6tKA5ft0sLCVRgAUgle1RCe3f17_AKV5E2cCpPsyVEbiCUqHmcD8Bj8661KAD596UpQClKUApSlAK4-q7Ob7ZXYCXgyVrSoLKc4wc9q7FKF8WSWKayQdNcoq7_Ja9_rVr_kn_Gn-S17_AFq1_wAk_wCNWjSh636g9If3PlH7FXf5LXv9atf8k_40_wAlr3-tW_8Akn_GrRpQfqD0h_c-UfsRfROl1aaTMC5SZBkFJ4Rt24z_AI1KKUoeZqNRk1OR5cruTP_Z",
+  "height": 240,
+  "mime_type": "image/jpeg",
+  "width": 320
+ }
+}

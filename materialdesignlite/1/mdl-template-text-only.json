@@ -1,0 +1,425 @@
+{
+ "kind": "pagespeedonline#result",
+ "id": "https://getmdl.io/templates/text-only/",
+ "responseCode": 200,
+ "title": "Material Design Lite",
+ "score": 74,
+ "pageStats": {
+  "numberResources": 14,
+  "numberHosts": 4,
+  "totalRequestBytes": "1206",
+  "numberStaticResources": 5,
+  "htmlResponseBytes": "20349",
+  "cssResponseBytes": "150957",
+  "javascriptResponseBytes": "62770",
+  "otherResponseBytes": "175342",
+  "numberJsResources": 1,
+  "numberCssResources": 4
+ },
+ "formattedResults": {
+  "locale": "en_US",
+  "ruleResults": {
+   "AvoidLandingPageRedirects": {
+    "localizedRuleName": "Avoid landing page redirects",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your page has no redirects. Learn more about avoiding landing page redirects.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/AvoidRedirects"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "EnableGzipCompression": {
+    "localizedRuleName": "Enable compression",
+    "ruleImpact": 17.1099,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compressing resources with gzip or deflate can reduce the number of bytes sent over the network."
+      }
+     },
+     {
+      "header": {
+       "format": "Enable compression for the following resources to reduce their transfer size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
+        },
+        {
+         "type": "BYTES",
+         "value": "167.1KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "84%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://code.getmdl.io/1.2.1/material.deep_purple-pink.min.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "117.5KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "85%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://code.getmdl.io/1.2.1/material.min.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "49.6KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "81%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "LeverageBrowserCaching": {
+    "localizedRuleName": "Leverage browser caching",
+    "ruleImpact": 0.4999503968253968,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Setting an expiry date or a maximum age in the HTTP headers for static resources instructs the browser to load previously downloaded resources from local disk rather than over the network."
+      }
+     },
+     {
+      "header": {
+       "format": "Leverage browser caching for the following cacheable resources:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/LeverageBrowserCaching"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/text-only/styles.css"
+          },
+          {
+           "type": "DURATION",
+           "value": "60 seconds"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MainResourceServerResponseTime": {
+    "localizedRuleName": "Reduce server response time",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your server responded quickly. Learn more about server response time optimization.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/Server"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "MinifyCss": {
+    "localizedRuleName": "Minify CSS",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your CSS is minified. Learn more about minifying CSS.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "MinifyHTML": {
+    "localizedRuleName": "Minify HTML",
+    "ruleImpact": 0.0722,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting HTML code, including any inline JavaScript and CSS contained in it, can save many bytes of data and speed up download and parse times."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify HTML for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "722B"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "17%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/text-only/"
+          },
+          {
+           "type": "BYTES",
+           "value": "722B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "17%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyJavaScript": {
+    "localizedRuleName": "Minify JavaScript",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your JavaScript content is minified. Learn more about minifying JavaScript.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "MinimizeRenderBlockingResources": {
+    "localizedRuleName": "Eliminate render-blocking JavaScript and CSS in above-the-fold content",
+    "ruleImpact": 14.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your page has $1 blocking script resources and $2 blocking CSS resources. This causes a delay in rendering your page.",
+       "args": [
+        {
+         "type": "INT_LITERAL",
+         "value": "1"
+        },
+        {
+         "type": "INT_LITERAL",
+         "value": "4"
+        }
+       ]
+      }
+     },
+     {
+      "header": {
+       "format": "None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML."
+      }
+     },
+     {
+      "header": {
+       "format": "Remove render-blocking JavaScript:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/BlockingJS"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://code.getmdl.io/1.2.1/material.min.js"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "header": {
+       "format": "Optimize CSS Delivery of the following:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://fonts.googleapis.com/icon?family=Material+Icons"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://code.getmdl.io/1.2.1/material.deep_purple-pink.min.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://getmdl.io/templates/text-only/styles.css"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "OptimizeImages": {
+    "localizedRuleName": "Optimize images",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your images are optimized. Learn more about optimizing images.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "PrioritizeVisibleContent": {
+    "localizedRuleName": "Prioritize visible content",
+    "ruleImpact": 2.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your page requires additional network round trips to render the above-the-fold content. For best performance, reduce the amount of HTML needed to render above-the-fold content."
+      }
+     },
+     {
+      "header": {
+       "format": "The entire HTML response was not sufficient to render the above-the-fold content. This usually indicates that additional resources, loaded after HTML parsing, were required to render above-the-fold content. Prioritize visible content that is needed for rendering above-the-fold by including it directly in the HTML response.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Only about $1 of the final above-the-fold content could be rendered with the full HTML response $2.",
+         "args": [
+          {
+           "type": "PERCENTAGE",
+           "value": "37%"
+          },
+          {
+           "type": "SNAPSHOT_RECT",
+           "value": "snapshot:5"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "version": {
+  "major": 1,
+  "minor": 15
+ },
+ "screenshot": {
+  "data": "_9j_4AAQSkZJRgABAQAAAQABAAD_2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj_2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj_wAARCADwAUADASIAAhEBAxEB_8QAHAABAAEFAQEAAAAAAAAAAAAAAAQBAgMFBgcI_8QARhAAAQMCAwMGCggEBwADAQAAAQACAwQRBRIhMVGRBhMUQWGBFRciUlZxlKGx0gcyM1OTwdHhFiOS8CQ0NUJUVXNiY_Fy_8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwUEBv_EAC8RAQABAgMGBQMEAwAAAAAAAAABAgMEERIFFTFSodETITJRkRRBcQYWQlNyksH_2gAMAwEAAhEDEQA_APMlS43jiqro8O5TNo4KaPwdDKYWNaC4jRwLfKGmlwH3Bvq8nqAX3tUzHCM3pc3mG8cUuN44rqzytbZgGGxOyB2Vz3ZnBxcCHbNoGYW2eVfaFjruVLKmjrYG4bC01DQ1sjnAmHyQPJ02aH-pUiuvl6ocwlxvCz0c5pqlkwaHFt7A7NQR-a2AxhoyEUozgxuz5tQWdQ02Hyr-vsV5mY4QlqLjeEuDsW5pMabBE1rqRkjrtc5xdqSABu67dut1CrqsVMcLRHlMebyibk3N9yRM5-cCHcdZS43hbHCsRbQhwdAJbvDtTbqtu29YV8GKiMWlpxNZgYC92wBxdcabb5e4JMz7DV3CXttU6trY6iAxRwc3eUy3LgbX2jQBYKSodTPkcy_lsLDrvU5zlwGC43hLjeFuX4yx0r39Ea4OcXZXOuB5QO7bpbbstoqyY1HITmoY2g3zZCBfbrs27u2-9V1Vew0txvCLbMxZjGBraUeS1oBLh1dR01HZvWsnkM00khABe4usNgv1KYmZ4wLLjeFVbSLFmtbZ9KxxsxocHWLcrbAjTbqTw3LX1EjZaiWRjcjXvLg3cCdiRMzxgY0RFYEREBERAREQEREBERAREQEREBERAREQEREHu2E_QI1tXfF8b52lynyaSHm35urV1xbb1LdeInk1_wBhjP8AXF8i9ZRfHVbSxNU562GuXk3iJ5Nf9hjP9cXyJ4ieTX_YYz_XF8i9ZRV3hieeTVLwvFfoEzVjjhOOCKksLNqoS-S_XctsLdyieIKv9IKP2V_zL39FpG1cVEZaukGuXgHiCr_SCj9lf8yeIKv9IKP2V_zL39FO9cVzdI7J1y8A8QVf6QUfsr_mTxBV_pBR-yv-Ze_om9cVzdI7GuXgHiCr_SCj9lf8yeIKv9IKP2V_zL39E3riubpHY1y8A8QVf6QUfsr_AJk8QVf6QUfsr_mXv6JvXFc3SOxrl4B4gq_0go_ZX_MniCr_AEgo_ZX_ADL39E3riubpHY1y8A8QVf6QUfsr_mTxBV_pBR-yv-Ze_om9cVzdI7GuXgHiCr_SCj9lf8yeIKv9IKP2V_zL39E3riubpHY1y8A8QVf6QUfsr_mTxBV_pBR-yv8AmXv6JvXFc3SOxrl4B4gq_wBIKP2V_wAyeIKv9IKP2V_zL39E3riubpHY1y8A8QVf6QUfsr_mTxBV_pBR-yv-Ze_om9cVzdI7GuXgHiCr_SCj9lf8yeIKv9IKP2V_zL39E3riubpHY1y8A8QVf6QUfsr_AJk8QVf6QUfsr_mXv6JvXFc3SOxrl4B4gq_0go_ZX_MniCr_AEgo_ZX_ADL39E3riubpHY1y8A8QVf6QUfsr_mTxBV_pBR-yv-Ze_om9cVzdI7GuXgHiCr_SCj9lf8yeIKv9IKP2V_zL39E3riubpHY1y8A8QVf6QUfsr_mTxBV_pBR-yv8AmXv6JvXFc3SOxrl4B4gq_wBIKP2V_wAyeIKv9IKP2V_zL39E3riubpHY1yIiLnKBWoq8UlgqZI2xsIabXN1tyuZxP_Pzev8AJWpjOXnxFc0050pPhmb7qP3p4Zm-6j961iK-mHj8e57tn4Zm-6j96eGZvuo_etYiaYPHue7Z-GZvuo_enhmb7qP3rWImmDx7nu2fhmb7qP3qZhVbJW1Jie1rQGl129y0C2vJv_UHf-Z-IUTTGS9q9XNcRMui6OPOPBOjjzjwWZFm6LD0ceceCdHHnHgsyIMPRx5x4J0ceceCzIgw9HHnHgnRx5x4LMiDD0ceceCdHHnHgsyIMPRx5x4J0ceceCzIgw9HHnHgnRx5x4LMiDD0ceceCdHHnHgsyIMPRx5x4J0ceceCzIgw9HHnHgnRx5x4LMiDD0ceceCdHHnHgsyIMPRx5x4KhgA2uKzrgfpa5NYtyioaFmElk0cMrnS0j5eabJcWa_MOtuunag7SSMMjc4OvZWBch9GGAYhye5O11PilPHTySVBkZGybnQG5Wi9-0g6Lr0BERAREQCuZxP8Az83r_JdMVzOJ_wCfm9f5K9HF5cX6I_KKiItHgEREBERAW15N_wCoO_8AM_ELVLa8m_8AUHf-Z-IUVcGln1w6hc1X1uKU1Xic8UcssED2MiYSMli1l3ZcuYgZnEnN1WXSosXVcZUcoMXcyaOKlZFK2lMoeInvAcA06ecCCe8HbZT_AA1WyVYpoadmcS5HudE-zW86QD3sAdt610iIOSg5Q4m-OF8tDHHnnEbmZXuc0G122H-4X237baLrRsREBERAREQEREBERAREQEREBERAREQEREGOp-wf6lGUmp-wf6lGQEREBERAK5nE_wDPzev8l0xXM4n_AJ-b1_kr0cXlxfoj8oqIi0eAREQEREBbXk3_AKg7_wAz8QtUtryb_wBQd_5n4hRVwaWfXDqDsWgqoqh1VMIMUih52TIGlxJ2bLHYfVZb9aypwOgqKp1RLCTK7ac5136XWLqo9OyuEsZkxWF4ubtDWm4LfJ9-v_4sLRWyUxiOMwOlLWPDhYENH1jpvJB93Wp8eCUMT43shIdG7ODmN7_2Fibydw1rnOELgXbf5ju7rQR-ZxMNF8YgsMoccrduo3aa24LIyKtdIXSYpGY2ubZrbDQOG022nZ3qS3BMPa17W04DXhrSLnY0ED3FWHAMOMEsJgPNyEFwzu1ts60EUiuIldJi9MIg8va4WGUAg2O8WvdXOjrcwbHicTqtkTWSNNrXFyXZdgOo7lKOBYeXh_RwHBrm3BOwgg_FXnB6I1Mk5iJkfmzHMesEH4nig1mHmte6B9RisDmGzzGxwN7OGma2uht2rIynxR0eV2KwGT6zHNaOvZcdY-Kk_wAPYdaxgJ9b3d_X1rMcIoulCoEVpQWHMHEfVtbu0GnYggSisnpw-nxeDJIwMubbbAFzSBtuHcexIY69sXN-F6dzmPBvYE5S0gA-twvxUifk_QzOYS17Q0jyWvNiB1e4bNyyx4JQsg5psJyXuRnOv1vmdxQQy3ESxgjxWmL-aa1xIGr7G7h3a9yTw1jonRQ4vEJnuBu4gnLaxsBvzN17VJPJ_DnMDTT3Gt_LOtxrfirvAdBkY0wXaxwc0ZjYHQ_kEGvYzFXRvEWLUpa5vkSaHYDcjT1b9iyS9MlkeYMYpwALlpA0sQD3fn1qaMFoQZTzJPOsdG4F5tldtA3XVY8GoY43MjiLQ7bZx3g_FoQQJ5K2TnHUmKU3NiQNNyBlttGz-7dqoaXEi_ysXiDXtsbWFwQ4At3anb2dyls5PYawjLTmwucpe4i9rXtfcSsj8EoHyB5g8oBouHHY0m3xKCNFT4jJHKW4nG6V1i0tAIa3NfZbdcXV89Dic0Mf-PEczHk5mtNnN0FiOJ9ZUugwyloHPdSx5C8AOOYm9tm1TUGmFFijsufEbWLT5LRssQ4bNdo4IKLFXOe6Sva0kANyN0b5QJ0ttsDr2rcogx07XshY2V-eQNAc61rnesiIgx1P2D_Uoyk1P2D_AFKMgIiICIiAVzOJ_wCfm9f5LpiuZxP_AD83r_JXo4vLi_RH5RURFo8AiIgIiIC2vJs2xB1_uz8QtUtrybF8Qdf7s_EKKuDSz64dPmG8cUzDeOKZRuHBYquaOlppZ5B5EbS42AvYLGIz8nUmYiM5Zcw3jimYbxxWn_iChDA4teAXFrQQNSG5t_qHrIWY4vSh8bS14z2sbCwJJFjr2HXYr-HVH2YxibU8KmyzDeOKZhvHFaaPH6OSlFQyOUsOf_aLjK0OPXuIWU4zS5ntax7nRuyvDQ3yfIL9-4EesJ4VfsiMVZnhU2mYbxxTMN44rUNx2jdVOgYyRz2vyaAWvYnf2LYUNRHWUzJomkNdfRwFxY21UVUVU-cwvRft3JyonNnzDeOKZhvHFMo3DgmUbhwVWpmG8cUzDeOKZRuHBMo3DggZhvHFMw3jimUbhwTKNw4IGYbxxTMN44plG4cEyjcOCBmG8cUzDeOKZRuHBMo3DggZhvHFMw3jimUbhwTKNw4IGYbxxTMN44plG4cEyjcOCBmG8cUzDeOKZRuHBMo3Dggx1LhzD9RsUdSKlo5h-g2KOgIiICIiAdi53Eqed1dK5kErmk3Ba242LokUxOTO5bi5GUuU6NU_8af-gp0ap_40_wDQV1dksra5ZfS0e8uU6NU_8af-gp0ap_40_wDQV1dksmuT6Wj3lynRqn_jT_0FOjVP_Gn_AKCurslk1yfS0e8uU6NU_wDGn_oKn4IJKWsMk8E7W5CL82TrcLeWSyiaplNOGppnOF3hCL7uf8J36Kjq6FwIdFOQeowu_RUsllV6GIy0Zzf4V3lfW_w519eiqZ6RwANM8gNy6052btmxZLJZTnKuin2W9Jpspb0eSxBBHMHUHuVG1NK0DLTyADZaA9vZ2nir7JZM5Tpj2YueowGjorrN2Do509yyR1kEbA2OGZrRsDYSAPcq2SyZyRTEcIXeEIvu5_wnfonhCL7uf8J36K2yWUJXeEIvu5_wnfonhCL7uf8ACd-itslkF3hCL7uf8J36J4Qi-7n_AAnforbJZBd4Qi-7n_Cd-ieEIvu5_wAJ36K2yWQXeEIvu5_wnfonhCL7uf8ACd-itslkF3hCL7uf8J36J4Qi-7n_AAnforbJZBd4Qi-7n_Cd-ieEIvu5_wAJ36K2yWQXeEIvu5_wnfonhCL7uf8ACd-itslkFJKxkrCxrJgXaC8ZA4qqWRAREQEREAq5kbntuCLdpVpUil-y7z8UGPmX728U5l-9vFSUQRuZfvbxTmX728VJRBG5l-9vFOZfvbxUlEEbmX728U5l-9vFSUQRuZfvbxTmX728VJRBG5l-9vFOZfvbxUlEEbmX728U5l-9vFSUQRuZfvbxTmX728VJRBG5l-9vFOZfvbxUlEEbmX728U5l-9vFSUQRuZfvbxTmX728VJRBG5l-9vFOZfvbxUlEEbmX728U5l-9vFSUQRuZfvbxTmX728VJRBG5l-9vFOZfvbxUlEEbmX728U5l29vFSVwP0tVvKGioKE8n-lMhdK4VEtHFzszTbyRl80m9z2BB2b43MaXEiw3FWrkPovrMYrOTlc_HZK6SVtQWxurYeaflyt6t17rr0BERAREQCpFL9l3n4qOVIpfsu8_FBhxaqdRYXV1TGhzoYXyBrjYEgX1WpHKLmKxtDVU75KrnebcaYFzLeR5W8ayNBHVYrfyxsmifHKxr43gtc1wuHA7QQo7cOo2tha2kpw2E5owIx5B3jcUGhbysj6NE6alfHNJA6bKHh7WkNc4AkbwwlTMMx0VVYyllhcyR_OWeCMhyvcLC5uTZtz61sPBlBmDuhU2YAi_NN2G9xs67niVkZRUsc4mjpoWzAEZ2sAdYm517ygkIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiDFU_YP9SjqTU_YP9SjICIiAiIgFSKX7LvPxUcqRS_Zd5-KDKvOuWf0sYLycrpKGGObEa2I5ZGQENZGdxeevsANutdPy8xKbCOR2MV9LcTwUr3Rkf7XWsD3Xv3L48JJJLiXEm5J1JO9dbZmBoxOddzhDW3RFXnL6Q5MfTNgmLVsdLiNPNhb5CGskleHxXPUXC2X1kW7V6iDdfDx1Gq-qfoYxOfFPo9w2Sqc58sOenzuNy4McQ08LDuV9p7Pow9MXLfDhkm5RFPnDuFgr6kUlFPUOaXNiYXkDrAF1nWCulfDSTSRtzva0kNsTfguMxauXlLQxmfSd7YTZzmR5gfKa0W73D47LXtPKeiFM-d0dQ1jHBpzMsTcGxGvZ12Tw1O02OG1DgBYljTqdLW06_wBFllxNzoiJcMqHfzebLS0EaNzZvVfZ2oMDuVWHgaNqHOuQGCLyjY66XV8vKajilja6Oez42yXybLkAC2_bwtqdFc_GJmzxMGG1Ja9jXE21aSL2PV2etGY09wLnYbVtYGglxbvA2DbtKBTcoqadslopw6OIyvGS9gACRfrOtv21Vv8AEtGKeWoeydsLOb8rJe-dxaLDbpbVZDi8zaaSZ-G1AytaQwaucSbWtbqFldFi0klREwUFQI5HBuci2Xbe4OwCyCKeVVHsEFWXkEhvNW0G03vZdAFoX48-JsLaigmE7yAWtBtc9QuNTb4FZPDUvRjMcNqrZmhrALuNy4HS3Vl94QbpFqGYvK6YNFBUc24Oc19ttgTqCNCSLBYJ8dqI3NDcMqnZQ4yDKdLbLG1jdBvkWqGLPNW2HoFUGueG5y3TVma_q6lijxqWQMDMOqsxbmIcLBuy2tt59xQbpFo58bmimDPB1QWhge54Byi7b2vbq61fDjbpsojoKo5oy8EtsL2BtfvQblFp4sYleZA7D6lmVhdq3bbqWM487nTG3D6oua0FwynTb2bNNqDeItEzHZzFndhlVpYOsDe_k7BbUandsWZ-LyxlokoKnVmYlgzAHMRbZe-g6usINui08-LTQ1EzHUc0jGuysMbHG5026ddydNyqcYkEccjqCpyOvms25bqRs7veEG3RaSlxmplifnw2oZI1odlIIBBfaw02gaqjsdlbCJX4bUsYbDytoJ2X4oN4i07sXmNNUSMw-oBjsGteLZiSR1Dqtqj8acxkLnUFXaQvzWYTkynaUG4RafwxMGzl2G1N4wCANc13W07tTuWypJXzQ55IjE7M5uUm-xxAPeBfvQXVP2D_AFKMpNT9g_1KMgIiICIiAVIpfsu8_FRypFL9l3n4oMWK0MOJ4bVUNU3NBUxOikH_AMXCxXyZyy5GYtyUxCSGtp5ZKXMeaq2MJjkb1G_Ud4K-vVyXK3l_ye5MTdGxOrL6q1zTQM5x4B84bB3kLo7PxV2zVNNunVn9mluqYnyfMfJvk3i3KSuZS4RRySkmzpS0iOMb3O2Ae9fWPJHA4eTfJ2hwqndnbTx2c8i2dxN3O7yStByX-kvkxj9Wyjo6l9NUvNo4amPm853NOwnsvddurbRxd69MUXKdMR9i5VM-UixVQldTStp3tZMWkMc4XAdbQkLKsVXOymppZpSQyNpc4gXNguYzaro-NgACtp9t82TU-7-7pNSYyWPayviILSA4tAdf1hvv-PVnmxrD4HytlrWtMRIfcbNQN28getWNx3DXROlbWgsa4NJDTtIJHVrsOxBbU0uLPl_lV0TYQ64bksbXB1P9XuVXU2LtyCKtiytY0HOy5Jubk6dYsqux7DGszmvZlva4F_yVX45h7Hsa6stnYJA7LpY2trbtvbcCSgx9Exh0TWvr48xBDnNaBY20t5O_-z1WmlxrNm6dDe58nLpa-nVt_vtWeHGqCZpLKvVsZkcC3VrQLknTqvx0Tw3h_NySGsyxx5MzyLNGYkN1tvBQWPpsW5pmWtiMjQbksGt-7T-73VBTYvnDjWxEjN5OWwd1t6tOsfqqfxFhVtK4E62aGkuNtulr9a29j57vcg0zqfGmxktq4XSukadnkhtrGwt_e_qVwhxpsct6mBz3WyBo-p5eu0a-StxlPnu9yZT57vciaZ0zEtS6nxfKLVsN8mpyWu7W_Vs4-7XGyjxnKWuxCPKBYWZrsG023j3rdZT57vcmU-e73I3jEVR9o-IamamxYzSGKuibGXEtBYLtF9Bs3b1looMSjqA6qqopIbWLGttbtBtdbHKfPd7kynz3e5FZvzMZZR8QqiplPnu9yZT57vcjFVFTKfPd7kynz3e5BVFTKfPd7kynz3e5BVFTKfPd7kynz3e5BVFTKfPd7kynz3e5BVFTKfPd7lUCw23QY6n7B_qUZSan7B_qUZAREQEREAqRS_Zd5-KjlSKX7LvPxQavllirsD5LYpiUYDpKanfIwHZmtpfvsvjuomlqaiWepkdLPK4vkkeblzjtJX2dj-GRYzgtdhs5IiqoXQuI6ri1-7avj_lFglfydxWXD8VhdFOw6OI8mQdTmnrBX0OxKqMqqf5f8b2cvNrdmouCNbhfWX0T43Pj_IbDquseX1TQ6CV52vLHFuY9pABPavlbDKCqxSuiosOp5KmqlOVkUYuT-g7ToF9b8gcA_hnkpQYW5zXyxMLpXt2OkcczrdlzYdgV9t1UeHTTPqz6JvZZOhUfEXxx0M75o2yxhhzMdazhuN9LKQsVWZRSymBjJJshyNebBxtoD2L5t52gGJ4NGHMdSMaCPLAhBFxbdt2Xv2DsWSerwaSncyalHNmXmy3mLeUG5urcL-9ZOdxkC3QaUuvcnMLEdXX_AHokz8aDHtZTUjnZSQ4b-rQu_vstqGF9fgramJvQ2F0jA9rhTg_WAPr2WVRiWCTOzGnYcrW3e6AWaNCBf1kd6kVLsX57LBTUpjDh5ZPlEAjhoXcEc7F2BjW0tLIMjcxJy3dc30vsAtZBhZiWExU804pebiyAvdzIGYONrW2nQDusqx1mDzPipW0sbmSlrWgQAsJ1IHcQduy_rV5fjT4Wh1PStkcDe2oabade_wDsddOcxrNmFJSgXNmXG_Q3vtIP97EGDwng4ZG-WkZHI4asMTSWh2-2-4Uv-IqEUzpyZRCC1ubJtJLhoNv-0qyZuJuZE80VE-ZhLteo9RGvULj9FcH4vmBNLTZRmuwddjcWN-vX9kGRuO0bpubHOm4c4ODLhwAJJBHqWCblNQxFocJdji_ydWW3hUMuMMiL-hwF3ONa2MWs1ttTe-87fd1q7nsWEczn0MGY2yAEOOr7WOvm6ommNUxCQMcojVNgD353ODB5BsSW5vgsTOUNDIGc2ZXucCcoZqBpt3bQEdJi4AIpKUuyAmzv91jpt1tpu9-mNjsaylpp6RpDbB20mwHbbbdG8YeeaPldNyjoop2xP50PLA8jLsu0EfFXs5Q0EhDY3vc4xmQAMN7AA29euxWznFuelbHS0boiSGl3W3qvrrp6lkw_wgJ2tqaWmjp7W_l7W-_Z3IrNmYjPVHypFj9FIXhpku1pebttoFY7lHQB2XO8mwvZuy_Utvkbr5I126KghjDy8RszEWJyi5G5GLTs5S0Lo8551rRYOOW-U-Tpt1-t1biszseo2Fol5yNzmZ7OZsFyNSNL3adFs8jbWyjghY07Wg9yDVzY7TQTzRzhzObNgRY5tm7Yde8aqvh6iDI3udIGPvZxZoLEix3fVK2eRt75Re99iZG2tlFt1kGnpeUVHURPe1socwBzm5dQ0uy3_P1Kv8R0XNh9p8htZxjsNdg1W4yt3DgrXRRvblcxrm3BsQLaaoNYcepOjzzM517YbX8m1ySQBr6kdj9AxsLnyOaJi4NJb5u2-5bXI2xFhY7dFQsaRYtBHqQasY_R5ZnOEzeaALgYydrso2bythSVDamHnGNc0ZnNs4a6OI_JZSxpvdo102KoFtiDHU_YP9SjKTU_YP8AUoyAiIgIiIBUil-y7z8VHKkUv2XefigyrneV-J8maKmZHyqmw4RO1ZHVNa8ntDbE94Cn8p8VZgfJ_EMTe3MKWB8uXziBoO82Xx5iuI1eL4jPX4lM6erndme9x9w3AdQ6l09nYGcTM1TOUQ0t0avN9VcjcW5H1T3w8lJcLbIRd0VNGInkf_zYEhdYviKnnlpqiKemlfFPE4PjkYbOYRsIK-t_o3x-TlLyOw_Eai3SXNMc1hYF7SWk99r96ttHATh8rkTnE-_FNyjT5umVk8rIYXyyODGMBc5x2ABXqPiIhNDOKlrnQlhD2tvcg9QsuUyUdVwtc4OqYAW3BBcBa1tuvaOIVvTqbI5_S6fI02c7MLA9pvpsWkfDydfzjZgwul1k5xzr3DgTck6HML-sHtV0lHyedSuja6KON0jWnJIQc4BNvXYnig3Tqyna0udVU4aDYkuGh4qjq6nbI1hqqcOc0PaMw1aSADt2EkLSOo-TTJY2ubEC5udt3uykO1HXbZr6j2rIafk9PI1t4XODGtDRI7RoFxpfd7tEG3jraeRocyqgILc31hste-3cQVVtbTuLgKmAluUu8oaXJA6-sg2WpgjwCOOeWPmgx0WWR5LrZHG1rnfb8-tDSYBIzoJEZbKWAMzu8sglzdb6m9yg2jsQpGxl5rKUMGhdnFvipVnb28P3XNMpuTZbFPzUTC5pDcxc11j2dXV7luBjFBzbpOlRiNpALzcNub217jwQTbO3t4fulnb28P3UTwrRc8YjUMEgvobi9hc232AWKTG8Pj5suqW2eHEGxsLbb7kGws7e3h-6Wdvbw_dRRidEZhCKmLnCQ3Lm6y3MBw1VnhegyscKmMh9y21ze3_6OKCbZ29vD90s7e3h-6gvxmgZK2N1Q0Pc0OAIN7EXGnar_C1CQLVURuwyCx2tHX70Euzt7eH7qtnb28P3UJmLUUmbJUxuyguNtyo7F6BpANTHcgHbv2IJ1nb28P3Szt7eH7rXtxvD3NDuksAIubgjLs27j5Q2rIMVoiWjpDA5zc4a64NrkXsfUeCCZZ29vD90s7e3h-6hPxWljlljlk5sx3uXiwNrA236kBVGKUR5u1TH_MBLddtiR-R4IJlnb28P3Szt7eH7rXwY1QTRGRlQ2wsSCDcAuyg23X60GN4cQC2rjIIuCLm6DYWdvbw_dLO3t4fuoTsWoRFLIKhjmxi7stz6tm26u8KUX8r_ABMX80kM1-sRtsgl2dvbw_dVF7aqAMYoC2R3SowIxd2Y2sM2W-vapdPPHUR85E7My5bexGoJB29oKBU_YP8AUoyk1P2D_UoyAiIgIiIBUil-y7z8VHKkUv2Xefig1_KrChjnJzEsMLg01UD4g4_7SRoeNl8d4jRVOG109FXwugqoHFkkbhqD-m49a-2VouUfJLAuUeU4zhsFTIwWbJq14G7MLG3Yuns_H_S501RnEtLdeni-PYo3zSsiiY6SV7g1jGC7nE7AB1lfW30ZYBLyb5F4fh9UAKoNMswBvZ7zmI7r27ll5Pch-TvJ6o6RhWFwxVFrCZ5Mjx6i4kjuXSK20NoxioiiiMoTcuavKBYK-wop7wGo8g_yh_v02d6zouUyc0ZRbXk84uvqMnVYW1t_dlfPPKI3g4Fd_lSC3lNzWtf6t9nf69bdFZLIOeqXOZUNEeBh5YQ0S2FrCw07ieHYqE82xsZwEODo258gFr3tbUdWUHguisiDnXSySUwb4CaM7fqPFxoLgGzd6tZO-N7XR4CWtY52WzbOBuddmgN_7Gq6SyWQc3UMa9sUz8CJePKLWnZYWbcAai3V2dauzeS2M4E3mASS0tvYtNwbWsfrHvuuisiDmxUc1HzngTKA8RMaGkODXDXq67-rtvoqOkhe2eSXAbHTLnj1fd-Xzdut10qWRNMxExMxm590pa9kngM84GiQGwJabEW2bbADS_wvihe9gOTAGskDQM1rA6A6C17X-AXSpZG8XbfJHzPdztSP8RKPALZNSwSaeU0aDW2mmxZMMjjNS1jsGFO3KQJSLnZsOnZvW-RFZuUTGWiPme6KMPowXEU0ILgWmzBqD1LGMJoBI5_RIczhY-SpyIxQ_BdCGFvRIMpNyMg2_wBgK-TD6ST7SmidpbVo33-JPFSUQRZMOo5HudJTQuc5wcSWA3O9HYfRuj5t1NCWbsg3k_meKlIgix4dRx5slLA3MMpswC4ve3FWvwyjfEInU0WQEGwbbZs-CmIgjdApObfH0aHI83c3ILH1q1-G0T2ta-khc1t7AsGl9tlLXIfSrNLByOqHwSyRP52MZmOLTbMOsI3w1icReosxOWqYj5dMaGkOe9NF5YAd5G2xuPes8bWxizGhouTYDrJuV874VHX4hEHjF6iK8nN2dM8m-3zt1z3LM6krw2md4ZqLTyc2G86_M3Q7Rm_-JR9FV-mqaZ0zejP_ABl7_U6wvsDsUex808F4UygxF8jGHGJwD9YmV9mixN_rWIuAL79OpYqmlr4Keol8K1TxEL-S99na20Obs13abURH6bpmcovx_rPd70bjaCEXm_0O1M88eLCeeWXK6O3OPLraO2XXpCOFj8JODxFViZzyy8_zGYiIjyBUil-y7z8VHKzUzQYuvaevtQZ0VuQdvEqNVVdLSuDaiUMJBcASdimImfKFaqopjOqcktFDFdSGXmxO3Pci1zoQASDu2hY3YnQNY1xqGgE5Rqdtr_BTpq9lZvW4_lHy2CKC_EKJjpA6cDIHF172Ab9bXsSTEKOPnM8wbzZs6-bTZx-sNm8Jpq9jxbfNHynIoMeIUcj2tZOC5zsoGupteymZB28SomJjitTXTV6ZzXIrcg7eJTIO3iVCy5FbkHbxKZB28SguRW5B28SmQdvEoLkVuQdvEpkHbxKC5FbkHbxKZB28SguRW5B28SmQdvEoLkVuQdvEpkHbxKC5FbkHbxKZB28SguRW5B28SmQdvEoLkVuQdvEpkHbxKC5aTlhgh5Q4HLQNn5gvc1weW5rZTfYtzkHbxKZB28SjS1dqtVxconKY84eT-KWb_to_wD-qeKWb_to_wD-q9YyDt4lMg7eJR1f3BtD-zpT2eSyfRPMxhd4Vj0_-g_qsfism_wC1j_BP6r1qpaBC_bs3rAh-4Nof2dKezluRHJZ3JptYH1bag1BadGZcuW_6rqURHMxGIuYm5N27OdUv_9k=",
+  "height": 240,
+  "mime_type": "image/jpeg",
+  "width": 320
+ }
+}
