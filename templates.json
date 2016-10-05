@@ -2,7 +2,7 @@
     "id": "bootstrap.3.blog",
     "name": "Blog",
     "url": "http://getbootstrap.com/examples/blog/",
-    "src": "https://rawgit.com/niravanu/templates/master/boostrap/3/blog.zip",
+    "src": "https://rawgit.com/niravanu/templates/master/bootstrap/3/blog.zip",
     "framework": "bootstrap",
     "version": "3",
     "screenshot": {
@@ -15,7 +15,7 @@
     "id": "bootstrap.3.carousel",
     "name": "Carousel",
     "url": "http://getbootstrap.com/examples/carousel/",
-    "src": "https://rawgit.com/niravanu/templates/master/boostrap/3/carousel.zip",
+    "src": "https://rawgit.com/niravanu/templates/master/bootstrap/3/carousel.zip",
     "framework": "bootstrap",
     "version": "3",
     "screenshot": {
@@ -28,7 +28,7 @@
     "id": "bootstrap.3.cover",
     "name": "Cover",
     "url": "http://getbootstrap.com/examples/cover/",
-    "src": "https://rawgit.com/niravanu/templates/master/boostrap/3/cover.zip",
+    "src": "https://rawgit.com/niravanu/templates/master/bootstrap/3/cover.zip",
     "framework": "bootstrap",
     "version": "3",
     "screenshot": {
@@ -41,7 +41,7 @@
     "id": "bootstrap.3.dashboard",
     "name": "Dashboard",
     "url": "http://getbootstrap.com/examples/dashboard/",
-    "src": "https://rawgit.com/niravanu/templates/master/boostrap/3/dashboard.zip",
+    "src": "https://rawgit.com/niravanu/templates/master/bootstrap/3/dashboard.zip",
     "framework": "bootstrap",
     "version": "3",
     "screenshot": {
