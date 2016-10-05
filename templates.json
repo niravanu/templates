@@ -84,8 +84,8 @@
 }, {
     "id": "foundation.news-magazine",
     "name": "News or Magazine",
-    "url": "http://foundation.zurb.com/templates-previews-sites-f6/news-magazine.html",
-    "src": "http://foundation.zurb.com/templates-previews-sites-f6/news-magazine.html",
+    "url": "https://rawgit.com/niravanu/templates/master/foundation/6/news-magazine.html",
+    "src": "https://rawgit.com/niravanu/templates/master/foundation/6/news-magazine.html",
     "framework": "foundation",
     "version": "6",
     "screenshot": {
@@ -97,8 +97,8 @@
 }, {
     "id": "foundation.real-estate",
     "name": "Real Estate or Travel",
-    "url": "http://foundation.zurb.com/templates-previews-sites-f6/real-estate.html",
-    "src": "http://foundation.zurb.com/templates-previews-sites-f6/real-estate.html",
+    "url": "https://rawgit.com/niravanu/templates/master/foundation/6/real-estate.html",
+    "src": "https://rawgit.com/niravanu/templates/master/foundation/6/real-estate.html",
     "framework": "foundation",
     "version": "6",
     "screenshot": {
@@ -110,8 +110,8 @@
 }, {
     "id": "foundation.ecommerce",
     "name": "Ecommerce Homepage",
-    "url": "http://foundation.zurb.com/templates-previews-sites-f6/ecommerce.html",
-    "src": "http://foundation.zurb.com/templates-previews-sites-f6/ecommerce.html",
+    "url": "hhttps://rawgit.com/niravanu/templates/master/foundation/6/ecommerce.html",
+    "src": "https://rawgit.com/niravanu/templates/master/foundation/6/ecommerce.html",
     "framework": "foundation",
     "version": "6",
     "screenshot": {
@@ -123,8 +123,8 @@
 }, {
     "id": "foundation.agency",
     "name": "Agency",
-    "url": "http://foundation.zurb.com/templates-previews-sites-f6/agency.html",
-    "src": "http://foundation.zurb.com/templates-previews-sites-f6/agency.html",
+    "url": "https://rawgit.com/niravanu/templates/master/foundation/6/agency.html",
+    "src": "https://rawgit.com/niravanu/templates/master/foundation/6/agency.html",
     "framework": "foundation",
     "version": "6",
     "screenshot": {
@@ -136,8 +136,8 @@
 }, {
     "id": "foundation.blog",
     "name": "Blog w/ Sidebar",
-    "url": "http://foundation.zurb.com/templates-previews-sites-f6/blog.html",
-    "src": "http://foundation.zurb.com/templates-previews-sites-f6/blog.html",
+    "url": "https://rawgit.com/niravanu/templates/master/foundation/6/blog.html",
+    "src": "https://rawgit.com/niravanu/templates/master/foundation/6/blog.html",
     "framework": "foundation",
     "version": "6",
     "screenshot": {
@@ -150,8 +150,8 @@
     "id": "foundation.blog-simple",
     "name": "Blog Single Column",
     "desc": "This sleek, minimal approach can help your blog stand out by putting content front and center.",
-    "url": "http://foundation.zurb.com/templates-previews-sites-f6/blog-simple.html",
-    "src": "http://foundation.zurb.com/templates-previews-sites-f6/blog-simple.html",
+    "url": "https://rawgit.com/niravanu/templates/master/foundation/6/blog-simple.html",
+    "src": "https://rawgit.com/niravanu/templates/master/foundation/6/blog-simple.html",
     "framework": "foundation",
     "version": "6",
     "screenshot": {
